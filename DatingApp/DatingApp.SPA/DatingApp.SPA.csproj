@@ -6,4 +6,14 @@
     <TypeScriptToolsVersion>3.7</TypeScriptToolsVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DatingApp-SPA\src\app\routes.ts" />
+    <None Remove="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="DatingApp-SPA\src\app\routes.ts" />
+    <TypeScriptCompile Include="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
+  </ItemGroup>
+
 </Project>
