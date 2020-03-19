@@ -1,5 +1,6 @@
 ﻿using AngApi.DTO;
 using AutoMapper;
+using DatingApp.API.DTO;
 using DatingApp.API.Models;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,8 @@ namespace AngApi.Helpers
                 });
 
             CreateMap<Photo, PhotosForDetailedDto>();
+
+            CreateMap<UserForUpdateDto, User>();
         }
     }
 }
