@@ -8,12 +8,22 @@
 
   <ItemGroup>
     <None Remove="DatingApp-SPA\src\app\routes.ts" />
+    <None Remove="DatingApp-SPA\src\app\_models\photo.ts" />
+    <None Remove="DatingApp-SPA\src\app\_models\user.ts" />
     <None Remove="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="DatingApp-SPA\src\app\routes.ts" />
+    <TypeScriptCompile Include="DatingApp-SPA\src\app\_models\photo.ts" />
+    <TypeScriptCompile Include="DatingApp-SPA\src\app\_models\user.ts" />
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DatingApp-SPA\src\app\members\" />
+    <Folder Include="DatingApp-SPA\src\app\_resolvers\" />
+    <Folder Include="DatingApp-SPA\src\app\_guards\" />
   </ItemGroup>
 
 </Project>
