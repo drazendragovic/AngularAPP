@@ -6,6 +6,7 @@ import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { BsDropdownModule, TabsModule } from 'ngx-bootstrap';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -48,6 +49,7 @@ export function tokenGetter() {
     FormsModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
+    NgxGalleryModule,
     RouterModule.forRoot(appRoutes),
     JwtModule.forRoot({
       config: {
