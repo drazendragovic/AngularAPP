@@ -22,8 +22,4 @@
     <TypeScriptCompile Include="DatingApp-SPA\src\app\_services\error.interceptor.ts" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DatingApp-SPA\src\app\members\" />
-  </ItemGroup>
-
 </Project>
